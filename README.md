@@ -14,7 +14,7 @@
 ## ขั้นตอนการทำ
 - **SQL data model**: รวมข้อมูลคำสั่งซื้อ ลูกค้า สินค้า รายการสั่งซื้อ และงบโฆษณา เข้าด้วยกัน (ดู `sql/01_ecom_join.sql`)
 - **Python cleaning pipeline**: Data Cleaning โดยตั้งชื่อคอลัมน์ให้มาตรฐาน, แปลงวันที่, บังคับชนิดข้อมูล, ลบค่าซ้ำและเพิ่มฟีเจอร์เวลา
-- **และ EDA โดยใช้ library Pandas,Numpy,Matplotlib (ดู `src/ecom_clean.py`)
+- EDA โดยใช้ library Pandas,Numpy,Matplotlib (ดู `src/ecom_clean.py`)
 - **Excel Pivot workbook**: ใช้ทำ quick slice & dice ก่อนส่งเข้า Power BI
 - **Power BI dashboard**: KPI cards + เทรนด์รายเดือน  + ช่องทาง/วิธีชำระ + Top 10 จากสินค้าทั้งหมด
 
