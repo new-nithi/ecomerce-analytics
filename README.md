@@ -14,9 +14,9 @@ D# E‑Commerce Analytics — SQL → Python → Excel → Power BI
 ## 🎯 What I built
 - **SQL data model**: รวมข้อมูลคำสั่งซื้อ ลูกค้า สินค้า รายการสั่งซื้อ และงบโฆษณา เข้าด้วยกัน (ดู `sql/01_ecom_join.sql`)
 - **Python cleaning pipeline**: Data Cleaning โดยตั้งชื่อคอลัมน์ให้มาตรฐาน, แปลงวันที่, บังคับชนิดข้อมูล, ลบค่าซ้ำและเพิ่มฟีเจอร์เวลา
--                               และ EDA โดยใช้ library Pandas,Numoy,Matplotlib (ดู `src/ecom_clean.py`)
+-                               และ EDA โดยใช้ library Pandas,Numpy,Matplotlib (ดู `src/ecom_clean.py`)
 - **Excel Pivot workbook**: ใช้ทำ quick slice & dice ก่อนส่งเข้า Power BI
-- **Power BI dashboard**: KPI cards + เทรนด์รายเดือน + Breakdown ช่องทาง/วิธีชำระ + Top 10 จากสินค้าทั้งหมด
+- **Power BI dashboard**: KPI cards + เทรนด์รายเดือน  + ช่องทาง/วิธีชำระ + Top 10 จากสินค้าทั้งหมด
 
 ## 🗺️ Pipeline (Mermaid)
 ```mermaid
@@ -36,24 +36,28 @@ ecom-analytics-portfolio/
 │  └─ ecom_clean.py
 ├─ data/
 │  └─ sample/
-│     ├─ top10_sales.csv
-│     ├─ sales_by_payment_channel.csv
-│     └─ monthly_sales_by_category.csv
+│     ├─ ยอดขาย TOP10.csv
+│     ├─ ยอดขายตามวิธีชำระxช่องทาง.csv
+│     └─ ยอดขายรายเดือนxหมวดสินค้า.csv
+      └─ 
 ├─ docs/
 │  ├─ ONE-PAGER.md
 │  └─ figs/
-│     ├─ top10.png
-│     ├─ by_category.png
-│     └─ trend.png
+│     ├─ Mothly Orders & Revenue.png
+│     ├─TOP 10 Product.png
+│     └─ Top Categories by Revenue.png
+      └─ Top Channels by Revenue.png
 └─ README.md
 ```
 
 
 ## 📊 Quick look
 <p align="left">
-  <img src="docs/figs/top10.png" alt="Top 10" width="45%">
-  <img src="docs/figs/trend.png" alt="Monthly Trend" width="45%">
-</p>
+  <img src="docs/figs/Mothly Orders & Revenue.png" alt="MONTHLY ORDERS" width="45%">
+  <img src="docs/figs/TOP 10 Product.png" alt="TOP 10 PRODUCT" width="45%">
+  <img src="docs/figs/Top Categories by Revenue.png" alt="TOP 10 PRODUCT" width="45%">
+   <img src="docs/figs/Top Channels by Revenue.png" alt="TOP 10 PRODUCT" width="45%">
+  </p>
 
 
 
