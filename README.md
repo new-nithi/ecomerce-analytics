@@ -20,7 +20,7 @@
 ## 🗺️ Pipeline (Mermaid)
 ```mermaid
 flowchart LR
-  A[SQL: Join fact & dims] --> B[CSV export]
+  A[SQL: Join ] --> B[CSV export]
   B --> C[Python: Clean & Feature]
   C --> D[Excel Pivot]
   D --> E[Power BI Dashboard]
