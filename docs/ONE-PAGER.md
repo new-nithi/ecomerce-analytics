@@ -1,6 +1,6 @@
 # One‑Pager — E‑Commerce Analytics
 
-**Objective:** แปลงข้อมูลคำสั่งซื้อให้เป็น insight ที่ตัดสินใจได้  
+**Objective:** แปลงข้อมูลคำสั่งซื้อให้เป็น insight ที่จะไปนำเสนอเพื่อปรับกลยุทธ์การขายตามประเภทข้อมูลที่นำเสนอในแต่ละด้าน 
 **Stack:** SQL → Python → Excel → Power BI
 
 ## KPIs
@@ -9,13 +9,11 @@
 - Trend: Monthly
 
 ## Process
-1) SQL รวมตาราง fact/dim + งบโฆษณา (ถ้ามี)  
-2) Python ทำความสะอาดและฟีเจอร์เวลา  
-3) Excel pivot ตรวจ sanity check  
-4) Power BI ทำแดชบอร์ดดูภาพรวมและ drill‑down
+1) SQL โดยทำการ Join ข้อมูล  
+2) Python ใช้ Data cleaning และ ปรับ Date time
+3) Excel ใช้ pivot table
+4) Power BI ทำแดชบอร์ดดูภาพรวม
 
-## Deliverables
-- README + โค้ด reproducible
-- Dashboard (ภาพใน `docs/figs/`)
-- ข้อเสนอแนะเชิงปฏิบัติ (เช่น โฟกัสช่องทางที่ ROAS สูง, แก้ bottleneck อัตราแปลง)
+
+
 
