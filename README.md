@@ -1,4 +1,4 @@
-D# E‑Commerce Analytics — SQL → Python → Excel → Power BI
+ E‑Commerce Analytics — SQL → Python → Excel → Power BI
 
 **Single‑project portfolio**  โดยผมเริ่มจาก *SQL join* → *Python data cleaning* → *Excel Pivot* → *Power BI dashboard* 
 <div align="left">
