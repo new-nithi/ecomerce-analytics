@@ -1,4 +1,4 @@
-# E‑Commerce Analytics — SQL → Python → Excel → Power BI
+D# E‑Commerce Analytics — SQL → Python → Excel → Power BI
 
 **Single‑project portfolio**  โดยผมเริ่มจาก *SQL join* → *Python data cleaning* → *Excel Pivot* → *Power BI dashboard* 
 <div align="left">
@@ -13,7 +13,8 @@
 
 ## 🎯 What I built
 - **SQL data model**: รวมข้อมูลคำสั่งซื้อ ลูกค้า สินค้า รายการสั่งซื้อ และงบโฆษณา เข้าด้วยกัน (ดู `sql/01_ecom_join.sql`)
-- **Python cleaning pipeline**: ตั้งชื่อคอลัมน์ให้มาตรฐาน, แปลงวันที่, บังคับชนิดข้อมูล, ลบค่าซ้ำและเพิ่มฟีเจอร์เวลา (ดู `src/ecom_clean.py`)
+- **Python cleaning pipeline**: Data Cleaning โดยตั้งชื่อคอลัมน์ให้มาตรฐาน, แปลงวันที่, บังคับชนิดข้อมูล, ลบค่าซ้ำและเพิ่มฟีเจอร์เวลา
+-                               และ EDA โดยใช้ library Pandas,Numoy,Matplotlib (ดู `src/ecom_clean.py`)
 - **Excel Pivot workbook**: ใช้ทำ quick slice & dice ก่อนส่งเข้า Power BI
 - **Power BI dashboard**: KPI cards + เทรนด์รายเดือน + Breakdown ช่องทาง/วิธีชำระ + Top 10 จากสินค้าทั้งหมด
 
@@ -21,7 +22,7 @@
 ```mermaid
 flowchart LR
   A[SQL: Join ] --> B[CSV export]
-  B --> C[Python: Clean & Feature]
+  B --> C[Python: Clean & Feature and EDA]
   C --> D[Excel Pivot]
   D --> E[Power BI Dashboard]
 ```
