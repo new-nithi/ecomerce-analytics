@@ -1,7 +1,6 @@
 # E‑Commerce Analytics — SQL → Python → Excel → Power BI
 
-**Single‑project portfolio** ที่โชว์ครบทั้งสาย data: เริ่มจาก *SQL join* → *Python data cleaning* → *Excel Pivot* → *Power BI dashboard* ในโจทย์อีคอมเมิร์ซจริง ๆ (สังเคราะห์โครงจากตารางมาตรฐาน orders, customers, products ฯลฯ)
-
+**Single‑project portfolio**  โดยผมเริ่มจาก *SQL join* → *Python data cleaning* → *Excel Pivot* → *Power BI dashboard* 
 <div align="left">
   
 ![Stack](https://img.shields.io/badge/SQL-analytics-blue) 
