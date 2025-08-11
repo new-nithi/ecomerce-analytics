@@ -18,6 +18,9 @@
 - **Excel Pivot workbook**: ใช้ทำ quick slice & dice ก่อนส่งเข้า Power BI
 - **Power BI dashboard**: KPI cards + เทรนด์รายเดือน  + ช่องทาง/วิธีชำระ + Top 10 จากสินค้าทั้งหมด
 
+
+
+
 ## Process
 ```mermaid
 flowchart LR
@@ -26,6 +29,8 @@ flowchart LR
   C --> D[Excel Pivot]
   D --> E[Power BI Dashboard]
 ```
+
+
 
 ## 📁 Repository structure
 ```
@@ -39,7 +44,7 @@ ecom-analytics-portfolio/
 │     ├─ ยอดขาย TOP10.csv
 │     ├─ ยอดขายตามวิธีชำระxช่องทาง.csv
 │     └─ ยอดขายรายเดือนxหมวดสินค้า.csv
-      └─ 
+       
 ├─ docs/
 │  ├─ ONE-PAGER.md
 │  └─ figs/
