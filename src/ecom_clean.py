@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""ECOM
+#Cleaning data with Python in google collab
 
 
 
