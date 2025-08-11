@@ -51,16 +51,6 @@ ecom-analytics-portfolio/
 ```
 
 
-## 📊 Quick look
-<p align="left">
-  <img src="docs/figs/Mothly Orders & Revenue.png" alt="MONTHLY ORDERS" width="45%">
-  <img src="docs/figs/TOP 10 Product.png" alt="TOP 10 PRODUCT" width="45%">
-  <img src="docs/figs/Top Categories by Revenue.png" alt="TOP Categories" width="45%">
-   <img src="docs/figs/Top Channels by Revenue.png" alt="TOP Channels " width="45%">
-  </p>
-
-
-
 
 ## 🧠 Problem framing
 - เป้าหมาย: รู้ว่า **ยอดขายมาจากไหน ลดลง/เพิ่มขึ้นเพราะอะไร** เพื่อนำไปปรับกลยุทธ์การตลาดให้องค์กรมีประสิทธิภาพมากยิ่งขึ้น
